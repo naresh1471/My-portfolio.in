@@ -1,6 +1,5 @@
 import { Link as LinkR } from 'react-router-dom';
 import styled from 'styled-components';
-import _default from '../../themes/default';
 
 export const Nav = styled.div`
     background-color: ${({theme}) => theme.card_light};
@@ -72,7 +71,6 @@ export const NavLink = styled.a`
     }
 `;
 
-
 export const GitHubButton = styled.a`
   border: 1.8px solid ${({ theme }) => theme.primary};
   justify-content: center;
@@ -108,7 +106,6 @@ export const ButtonContainer = styled.div`
   }
 `;
 
-
 export const MobileIcon = styled.div`
   display: none;
   @media screen and (max-width: 768px) {
@@ -140,7 +137,6 @@ export const MobileMenu = styled.div`
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
     z-index: ${({ isOpen }) => (isOpen ? '1000' : '-1000')};
-
 `
 
 export const MobileMenuItems = styled.ul`
