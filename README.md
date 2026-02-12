@@ -17,7 +17,7 @@ This portfolio showcases my work, skills, and projects including modern frontend
 Currently working on enterprise financial platforms delivering customer insights, analytics dashboards, and AI-driven experiences.
 
 ## 🌐 Live Site
-(Add your deployed link here once live)
+https://nareshyportfolio.netlify.app/
 
 ## 📫 Contact
 - LinkedIn: https://www.linkedin.com/in/naresh1919/
